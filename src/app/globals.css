@@ -1,0 +1,42 @@
+html,
+body {
+	margin: 0;
+	font-family: "Pretendard", sans-serif;
+}
+
+main {
+	scroll-behavior: smooth !important;
+}
+
+.fade-in {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.visible {
+	opacity: 1;
+}
+
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("../fonts/PretendardVariable.ttf") format("truetype");
+}
+
+html {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+li {
+	list-style : none
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

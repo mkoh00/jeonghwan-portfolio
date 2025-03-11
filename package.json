@@ -2,7 +2,7 @@
   "name": "jeonghwan-porftolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mkoh00.github.io/jeonghwan_portfolio",
+  "homepage": "https://mkoh00.github.io/jeonghwan-portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -101,6 +101,7 @@ export const projectDetailData = [
 				items: (
 					<iframe
 						className="w-full h-[500px]"
+						style={{ height: '500px' }}
 						src="https://carnaviranger.life-ranger.jp/Mopita/lp/MyCarNavi/Default.aspx"
 						title="MyCarNavi Guide Page"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -317,6 +318,7 @@ export const projectDetailData = [
 				items: (
 					<iframe
 						className="w-full h-[500px]"
+						style={{ height: '500px' }}
 						src="https://biz.redcap.co.kr/rent/sub/rentacar/system.php"
 						title="RMS Guide Page"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -469,6 +471,7 @@ export const projectDetailData = [
 				items: (
 					<iframe
 						className="w-full h-[500px]"
+						style={{ height: '500px' }}
 						src="https://www.youtube.com/embed/L98SCSqKC_A"
 						title="U⁺Connect Guide Page"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -578,6 +581,7 @@ export const projectDetailData = [
 				items: (
 					<iframe
 						className="w-full h-[500px]"
+						style={{ height: '500px' }}
 						src="https://kr.humaxdigital.com/archives/12290"
 						title="Indoor Navigation News Page"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

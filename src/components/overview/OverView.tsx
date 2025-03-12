@@ -4,7 +4,7 @@ import React from 'react';
 import HighlightText from '../common/HighlightText';
 import LengthUp from '../animation/LengthUp';
 import { FaGithub } from 'react-icons/fa';
-import { RiNotionFill } from 'react-icons/ri';
+// import { RiNotionFill } from 'react-icons/ri';
 import FlipUp from '../animation/FlipUp';
 import { SlideUpComponent } from '../animation/SlideUp';
 
@@ -15,11 +15,11 @@ const OverView = () => {
 			icon: <FaGithub />,
 			link: 'https://github.com/mkoh00',
 		},
-		{
-			id: 2,
-			icon: <RiNotionFill />,
-			link: 'https://www.notion.so/1604cf9b44308044bd89cc1fe4d66671',
-		},
+		// {
+		// 	id: 2,
+		// 	icon: <RiNotionFill />,
+		// 	link: 'https://www.notion.so',
+		// },
 	];
 	return (
 		<section className="w-screen h-screen flex bg">

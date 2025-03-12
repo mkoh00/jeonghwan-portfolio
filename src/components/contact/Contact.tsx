@@ -8,6 +8,7 @@ import { collection, query, orderBy, getDocs, addDoc, Timestamp } from 'firebase
 import { db } from '../../../firebase/firebaseConfig';
 
 const PAGE_SIZE = 5;
+const MAX_LENGTH = 200; // 최대 입력 글자 수 제한
 
 const Contact = () => {
 	const [allMessages, setAllMessages] = useState<{ id: string; message: string; createdAt: Date }[]>([]);
@@ -34,6 +35,7 @@ const Contact = () => {
 	// Firestore에 새 메시지 추가
 	const handleAddMessage = async () => {
 		if (!newMessage.trim()) return;
+
 		const newEntry = {
 			message: newMessage,
 			createdAt: Timestamp.now(),
@@ -85,12 +87,15 @@ const Contact = () => {
 				<SlideUpScroll delay={0.3}>
 					<div className="w-full h-auto rounded-lg bg-white p-4">
 						<textarea
-							className="w-full h-20 p-2 border rounded"
-							placeholder="메시지를 입력하세요..."
+							className="w-full h-24 p-2 border rounded resize-none" // 높이 고정 & 크기 변경 불가
+							placeholder="메시지를 입력하세요."
 							value={newMessage}
+							maxLength={MAX_LENGTH}
 							onChange={(e) => setNewMessage(e.target.value)}
 						/>
-						{/* 기존 남기기 버튼 색상 유지 */}
+						<div className="text-right text-gray-500 text-sm mt-1">
+							{newMessage.length} / {MAX_LENGTH}
+						</div>
 						<button className="w-full mt-2 bg-primary text-white p-2 rounded-lg" onClick={handleAddMessage}>
 							남기기
 						</button>

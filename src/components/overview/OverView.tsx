@@ -80,7 +80,7 @@ const OverView = () => {
 							협업을 통해 <HighlightText>최고의 사용자 경험</HighlightText>을 만들어가며,
 						</SlideUpComponent>
 						<SlideUpComponent delay={1.6}>
-							하나의 문제를 <HighlightText>다양한 시각에서 접근</HighlightText>
+							하나의 문제를 <HighlightText>다양한 관점에서 접근</HighlightText>
 							하는 개발자입니다
 						</SlideUpComponent>
 					</h3>

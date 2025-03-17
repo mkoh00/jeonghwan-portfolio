@@ -78,7 +78,7 @@ const AboutProfile = () => {
 						</li>
 						<li className="flex gap-3 items-center">
 							<MdEmail />
-							mkoh0022@gmail.com
+							mkoh0011@gmail.com
 						</li>
 					</SlideUpScroll>
 				</ul>

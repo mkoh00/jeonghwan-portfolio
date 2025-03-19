@@ -603,8 +603,8 @@ export const projectDetailData = [
 		},
 		title: 'KT AI 비즈카(샌드위키)',
 		subTitle: 'AI 기반 추천과 스마트한 예약 관리로 업무용 차량 이용을 효율적으로 돕는 서비스',
-		workTime: '2022.12.19 - 2023.08.30',
-		organize: '크로스 플랫폼 앱 개발',
+		workTime: '2023.03.27 - 2023.11.09',
+		organize: '크로스 플랫폼 앱, 웹 개발',
 		imgs: [
 			'/imgs/projects/sendWithKey/sendWithKey1.png',
 			'/imgs/projects/sendWithKey/sendWithKey2.png',

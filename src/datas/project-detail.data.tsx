@@ -11,7 +11,7 @@ export const projectDetailData = [
 		title: '乗換MAPナビ (환승MAP내비)',
 		subTitle: '일본 전역의 대중교통 정보를 종합적으로 안내하는 내비게이션 서비스',
 		workTime: '2020.11.13 - 현재',
-		organize: '운영 및 프론트엔드 유지보수',
+		organize: '안드로이드 앱 운영 및 유지보수',
 		imgs: [
 			'/imgs/projects/transferMap/transfer-overview.png',
 			'/imgs/projects/transferMap/transfer-map2.png',
@@ -43,7 +43,7 @@ export const projectDetailData = [
 				items: (
 					<ul className="w-auto flex flex-col gap-2">
 						<ul>
-							<li className="font-bold">모바일 프론트엔드 구현 (Android)</li>
+							<li className="font-bold">모바일 구현 (Android)</li>
 							<li className="px-3 text-lightgrey">
 								- Mapbox SDK를 활용한 실시간 지도 렌더링 및 경로 안내 기능 개선
 							</li>
@@ -151,7 +151,7 @@ export const projectDetailData = [
 				items: (
 					<ul className="w-auto flex flex-col gap-2">
 						<ul>
-							<li className="font-bold">모바일 프론트엔드 구현 (Android)</li>
+							<li className="font-bold">모바일 구현 (Android)</li>
 							<li className="px-3 text-lightgrey">
 								- LibVLC, MediaPlayer를 사용하여 RTSP URL을 통해 실시간 스트리밍
 							</li>
@@ -204,7 +204,7 @@ export const projectDetailData = [
 		title: '레드캡 모빌리티 시스템 (RMS)',
 		subTitle: '법인 차량 관리 통합 솔루션 서비스',
 		workTime: '2022.03.01 - 2022.11.13',
-		organize: '크로스 플랫폼 앱, 웹 개발',
+		organize: '크로스 플랫폼 앱 (Android, iOS), 웹 프론트엔드 개발',
 		imgs: [
 			'/imgs/projects/redcapMobilitySystem/rms-overview.png',
 			'/imgs/projects/redcapMobilitySystem/rms-dispatch1.png',
@@ -232,7 +232,7 @@ export const projectDetailData = [
 				items: (
 					<ul className="w-auto flex flex-col gap-2">
 						<ul>
-							<li className="font-bold">모바일 프론트엔드 구현 (Android, iOS)</li>
+							<li className="font-bold">모바일 구현 (Android, iOS)</li>
 							<li className="px-3 text-lightgrey">
 								- React Navigation을 사용하여 앱의 네비게이션 스택 구성
 							</li>
@@ -330,159 +330,6 @@ export const projectDetailData = [
 	},
 	{
 		id: 4,
-		primaryColor: '#EB008B',
-		URLS: {
-			githubURL: 'null',
-			blogURL: 'null',
-			serviceURL: 'https://www.lguplus.com/biz/all/telecom/wireless/uplus-vehicle/B000000046',
-			serviceBoolean: true,
-		},
-		title: 'U⁺커넥트',
-		subTitle: '스마트한 차량 관리와 효율적인 운행 솔루션을 제공하는 IoT 기반 서비스',
-		workTime: '2023.12.15 - 2024.12.18',
-		organize: '크로스 플랫폼 앱, 웹 개발',
-		imgs: [
-			'/imgs/projects/connect/connect-overview1.png',
-			'/imgs/projects/connect/connect-overview2.png',
-			'/imgs/projects/connect/connect1.png',
-			'/imgs/projects/connect/connect2.png',
-			'/imgs/projects/connect/connect3.png',
-			'/imgs/projects/connect/connect4.png',
-			'/imgs/projects/connect/connect5.png',
-			'/imgs/projects/connect/connect6.png',
-			'/imgs/projects/connect/connect7.png',
-			'/imgs/projects/connect/connect8.png',
-			'/imgs/projects/connect/connect9.png',
-			'/imgs/projects/connect/connect10.png',
-		],
-		description: {
-			bottomPart: (
-				<p>
-					<span className="font-bold">U+커넥트</span>는 LG유플러스가 제공하는 스마트 차량 관리 플랫폼으로,
-					법인차량, 화물차, 버스 등 다양한 차량의 효율적인 운행 관리를 지원하는 서비스 입니다.
-					<br />
-					이 솔루션은 차량에 IoT 단말기를 부착하여 운행 정보를 수집하고, 이를 PC나 스마트폰을 통해 실시간으로
-					확인하고 통합 관리할 수 있도록 합니다. <br />
-					주요 기능으로는 운행 일지 자동 작성, 차량 위치 및 경로 추적, 운행 통계 제공, 차량 상태 자가 진단,
-					정비비 및 유류비 등 비용 관리, 배차 현황 관리 등이 있습니다. <br />
-					또한, 수집된 운행 정보는 분석 후 경제 운전 및 안전 운전 리포트로 제공되어 운전자의 운전 습관 개선과
-					연비 향상, 탄소 배출량 감소 등 효과적인 차량 관리가 가능합니다. <br />
-					이를 통해 기업은 차량 관리의 번거로움을 해소하고, 효율적인 운행 관리를 실현할 수 있습니다.
-				</p>
-			),
-		},
-		lists: [
-			{
-				title: '모바일 담당 기능',
-				items: (
-					<ul className="w-auto flex flex-col gap-2">
-						<ul>
-							<li className="font-bold">모바일 프론트엔드 구현 (Android, iOS)</li>
-							<li className="px-3 text-lightgrey">
-								- react-native-webview를 활용하여 웹 애플리케이션을 네이티브 앱으로 구현 및 최적화된
-								화면 표출
-							</li>
-							<li className="px-3 text-lightgrey">
-								- 사업자, 사업장별 차량 예약, 반납 기능 및 권한별 차량 관리 기능 구현
-							</li>
-							<li className="px-3 text-lightgrey">
-								- iNAVI MAP과 RTK(Real-Time Kinematic)를 활용한 실시간 차량 관제 기능 구현
-							</li>
-							<li className="px-3 text-lightgrey">
-								- iOS와 Android에 따라 다른 이벤트 리스너 사용 (네이티브 앱과의 통신 지원)
-							</li>
-							<li className="px-3 text-lightgrey">
-								- usePageScrollPosition 커스텀 훅을 사용한 이전 스크롤 위치 저장 및 복원
-							</li>
-							<li className="px-3 text-lightgrey">
-								- AES-256 암호화로 블루투스 장치 이름 기반 AES 키 생성
-							</li>
-							<li className="px-3 text-lightgrey">
-								- 특정 커맨드를 React에서 RN으로 전달, RN에서 전달된 커맨드에 따라 Permissions API를
-								사용하여 권한 확인 및 처리
-							</li>
-						</ul>
-						<ul>
-							<li className="font-bold">API 통신 및 데이터 관리</li>
-							<li className="px-3 text-lightgrey">- Apollo Client를 사용하여 GraphQL API와 통신</li>
-							<li className="px-3 text-lightgrey">- GraphQL API 를 통한 FMS 서비스 기능 구현</li>
-							<li className="px-3 text-lightgrey">
-								- react-native-ble-plx를 사용하여 블루투스 장치 검색, 연결, 데이터 송수신 구현 (BLE 차량
-								컨트롤)
-							</li>
-							<li className="px-3 text-lightgrey">
-								- React 에서 전달받은 링크를 처리하여 네이티브 시스템을 활용한 파일 다운로드 구현
-							</li>
-						</ul>
-					</ul>
-				),
-			},
-			{
-				title: '웹페이지 담당 기능',
-				items: (
-					<ul className="w-auto flex flex-col gap-2">
-						<ul>
-							<li className="font-bold">웹 프론트엔드 구현</li>
-							<li className="px-3 text-lightgrey">
-								- 사업자, 사업장별 차량 예약, 반납 기능 및 권한별 차량 관리 기능 구현
-							</li>
-							<li className="px-3 text-lightgrey">
-								- 거점 리스트를 관리하며, 사용자가 거점을 추가, 삭제, 수정할 수 있으며, 모달을 통해
-								거점을 검색할 수 있는 기능 구현
-							</li>
-							<li className="px-3 text-lightgrey">
-								- 배송 상태를 관리하며, 배송 리스트를 가져오고 특정 조건에 따라 리스트를 필터링할 수
-								있게 구현
-							</li>
-							<li className="px-3 text-lightgrey">
-								- 엑셀 다운로드 기능을 제공하며, 드래그 앤 드롭으로 항목을 정렬 및 체크박스를 통해
-								항목을 선택하거나 해제할 수 있게 구현
-							</li>
-							<li className="px-3 text-lightgrey">
-								- Recoil 상태 관리 라이브러리를 사용하여 상태 변경에 따른 불필요한 리렌더링을 최소화하여
-								성능 최적화
-							</li>
-							<li className="px-3 text-lightgrey">
-								- iNAVI MAP과 RTK(Real-Time Kinematic)를 활용한 실시간 차량 관제 기능 구현
-							</li>
-						</ul>
-						<ul>
-							<li className="font-bold">API 통신 및 데이터 관리</li>
-							<li className="px-3 text-lightgrey">- Apollo Client를 사용하여 GraphQL API와 통신</li>
-							<li className="px-3 text-lightgrey">- GraphQL API 를 통한 FMS 서비스 기능 구현</li>
-							<li className="px-3 text-lightgrey">
-								- Server-Sent Events(SSE)를 기반으로 실시간 차량 데이터를 스트리밍하여 실시간 관제에
-								필요한 데이터를 수신
-							</li>
-						</ul>
-					</ul>
-				),
-			},
-			{
-				title: '기술 키워드',
-				items: (
-					<ul className="w-auto flex flex-col gap-2">
-						React, ReactNative, TypeScript, GraphQL, Apollo Client, Axios, Swiper, Moment, Recoil
-					</ul>
-				),
-			},
-			{
-				title: '참고 자료',
-				items: (
-					<iframe
-						className="w-full h-[500px]"
-						style={{ height: '500px' }}
-						src="https://www.youtube.com/embed/L98SCSqKC_A"
-						title="U⁺Connect Guide Page"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowFullScreen
-					></iframe>
-				),
-			},
-		],
-	},
-	{
-		id: 5,
 		primaryColor: '#4A6FA5',
 		URLS: {
 			githubURL: 'null',
@@ -592,7 +439,7 @@ export const projectDetailData = [
 		],
 	},
 	{
-		id: 6,
+		id: 5,
 		primaryColor: '#4A6FA5',
 		URLS: {
 			githubURL: 'null',
@@ -604,7 +451,7 @@ export const projectDetailData = [
 		title: 'KT AI 비즈카(샌드위키)',
 		subTitle: 'AI 기반 추천과 스마트한 예약 관리로 업무용 차량 이용을 효율적으로 돕는 서비스',
 		workTime: '2023.03.27 - 2023.11.09',
-		organize: '크로스 플랫폼 앱, 웹 개발',
+		organize: '크로스 플랫폼 앱 개발 (Android, iOS)',
 		imgs: [
 			'/imgs/projects/sendWithKey/sendWithKey1.png',
 			'/imgs/projects/sendWithKey/sendWithKey2.png',
@@ -726,6 +573,159 @@ export const projectDetailData = [
 			// 		></iframe>
 			// 	),
 			// },
+		],
+	},
+	{
+		id: 6,
+		primaryColor: '#EB008B',
+		URLS: {
+			githubURL: 'null',
+			blogURL: 'null',
+			serviceURL: 'https://www.lguplus.com/biz/all/telecom/wireless/uplus-vehicle/B000000046',
+			serviceBoolean: true,
+		},
+		title: 'U⁺커넥트',
+		subTitle: '실시간 차량 관리와 다양한 차량의 효율적인 운행 솔루션을 제공하는 FMS 기반 서비스',
+		workTime: '2023.12.15 - 2024.12.18',
+		organize: '크로스 플랫폼 앱 (Android, iOS), 웹 프론트엔드 개발',
+		imgs: [
+			'/imgs/projects/connect/connect-overview1.png',
+			'/imgs/projects/connect/connect-overview2.png',
+			'/imgs/projects/connect/connect1.png',
+			'/imgs/projects/connect/connect2.png',
+			'/imgs/projects/connect/connect3.png',
+			'/imgs/projects/connect/connect4.png',
+			'/imgs/projects/connect/connect5.png',
+			'/imgs/projects/connect/connect6.png',
+			'/imgs/projects/connect/connect7.png',
+			'/imgs/projects/connect/connect8.png',
+			'/imgs/projects/connect/connect9.png',
+			'/imgs/projects/connect/connect10.png',
+		],
+		description: {
+			bottomPart: (
+				<p>
+					<span className="font-bold">U+커넥트</span>는 LG유플러스가 제공하는 스마트 차량 관리 플랫폼으로,
+					법인차량, 화물차, 버스 등 다양한 차량의 효율적인 운행 관리를 지원하는 서비스 입니다.
+					<br />
+					이 솔루션은 차량에 OBD 단말기를 부착하여 운행 정보를 수집하고, 이를 PC나 스마트폰을 통해 실시간으로
+					확인하고 통합 관리할 수 있도록 합니다. <br />
+					주요 기능으로는 운행 일지 자동 작성, 차량 위치 및 경로 추적, 운행 통계 제공, 차량 상태 자가 진단,
+					정비비 및 유류비 등 비용 관리, 배차 현황 관리 등이 있습니다. <br />
+					또한, 수집된 운행 정보는 분석 후 경제 운전 및 안전 운전 리포트로 제공되어 운전자의 운전 습관 개선과
+					연비 향상, 탄소 배출량 감소 등 효과적인 차량 관리가 가능합니다. <br />
+					이를 통해 기업은 차량 관리의 번거로움을 해소하고, 효율적인 운행 관리를 실현할 수 있습니다.
+				</p>
+			),
+		},
+		lists: [
+			{
+				title: '모바일 담당 기능',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						<ul>
+							<li className="font-bold">모바일 구현 (Android, iOS)</li>
+							<li className="px-3 text-lightgrey">
+								- react-native-webview를 활용하여 웹 애플리케이션을 네이티브 앱으로 구현 및 최적화된
+								화면 표출
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 사업자, 사업장별 차량 예약, 반납 기능 및 권한별 차량 관리 기능 구현
+							</li>
+							<li className="px-3 text-lightgrey">
+								- iNAVI MAP과 RTK(Real-Time Kinematic)를 활용한 실시간 차량 관제 기능 구현
+							</li>
+							<li className="px-3 text-lightgrey">
+								- iOS와 Android에 따라 다른 이벤트 리스너 사용 (네이티브 앱과의 통신 지원)
+							</li>
+							<li className="px-3 text-lightgrey">
+								- usePageScrollPosition 커스텀 훅을 사용한 이전 스크롤 위치 저장 및 복원
+							</li>
+							<li className="px-3 text-lightgrey">
+								- AES-256 암호화로 블루투스 장치 이름 기반 AES 키 생성
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 특정 커맨드를 React에서 RN으로 전달, RN에서 전달된 커맨드에 따라 Permissions API를
+								사용하여 권한 확인 및 처리
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold">API 통신 및 데이터 관리</li>
+							<li className="px-3 text-lightgrey">- Apollo Client를 사용하여 GraphQL API와 통신</li>
+							<li className="px-3 text-lightgrey">- GraphQL API 를 통한 FMS 서비스 기능 구현</li>
+							<li className="px-3 text-lightgrey">
+								- react-native-ble-plx를 사용하여 블루투스 장치 검색, 연결, 데이터 송수신 구현 (BLE 차량
+								컨트롤)
+							</li>
+							<li className="px-3 text-lightgrey">
+								- React 에서 전달받은 링크를 처리하여 네이티브 시스템을 활용한 파일 다운로드 구현
+							</li>
+						</ul>
+					</ul>
+				),
+			},
+			{
+				title: '웹페이지 담당 기능',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						<ul>
+							<li className="font-bold">웹 프론트엔드 구현</li>
+							<li className="px-3 text-lightgrey">
+								- 사업자, 사업장별 차량 예약, 반납 기능 및 권한별 차량 관리 기능 구현
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 거점 리스트를 관리하며, 사용자가 거점을 추가, 삭제, 수정할 수 있으며, 모달을 통해
+								거점을 검색할 수 있는 기능 구현
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 배송 상태를 관리하며, 배송 리스트를 가져오고 특정 조건에 따라 리스트를 필터링할 수
+								있게 구현
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 엑셀 다운로드 기능을 제공하며, 드래그 앤 드롭으로 항목을 정렬 및 체크박스를 통해
+								항목을 선택하거나 해제할 수 있게 구현
+							</li>
+							<li className="px-3 text-lightgrey">
+								- Recoil 상태 관리 라이브러리를 사용하여 상태 변경에 따른 불필요한 리렌더링을 최소화하여
+								성능 최적화
+							</li>
+							<li className="px-3 text-lightgrey">
+								- iNAVI MAP과 RTK(Real-Time Kinematic)를 활용한 실시간 차량 관제 기능 구현
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold">API 통신 및 데이터 관리</li>
+							<li className="px-3 text-lightgrey">- Apollo Client를 사용하여 GraphQL API와 통신</li>
+							<li className="px-3 text-lightgrey">- GraphQL API 를 통한 FMS 서비스 기능 구현</li>
+							<li className="px-3 text-lightgrey">
+								- Server-Sent Events(SSE)를 기반으로 실시간 차량 데이터를 스트리밍하여 실시간 관제에
+								필요한 데이터를 수신
+							</li>
+						</ul>
+					</ul>
+				),
+			},
+			{
+				title: '기술 키워드',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						React, ReactNative, TypeScript, GraphQL, Apollo Client, Axios, Swiper, Moment, Recoil
+					</ul>
+				),
+			},
+			{
+				title: '참고 자료',
+				items: (
+					<iframe
+						className="w-full h-[500px]"
+						style={{ height: '500px' }}
+						src="https://www.youtube.com/embed/L98SCSqKC_A"
+						title="U⁺Connect Guide Page"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+					></iframe>
+				),
+			},
 		],
 	},
 ];

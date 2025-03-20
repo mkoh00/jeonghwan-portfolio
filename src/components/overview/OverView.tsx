@@ -60,16 +60,23 @@ const OverView = () => {
 						className="lg:text-[96px] md:text-[64px] text-[52px] text-grey font-bold"
 						height="lg:h-[106px] md:h-[70px] h-[60px]"
 					>
+						APP
+					</FlipUp>
+					<FlipUp
+						initialY="100%"
+						delay={0.5}
+						className="lg:text-[96px] md:text-[64px] text-[52px] text-grey font-bold"
+						height="lg:h-[106px] md:h-[70px] h-[60px]"
+					>
 						FRONT-END
 					</FlipUp>
-
 					<FlipUp
 						initialY="100%"
 						delay={0.8}
 						className="lg:text-[64px] md:text-[52px] text-[30px] text-pureWhite"
 						height="lg:h-[76px] md:h-[63px] h-[46px]"
 					>
-						프론트엔드 개발자 <HighlightText>오정환</HighlightText>
+						프론트엔드 & 모바일 개발자 <HighlightText>오정환</HighlightText>
 					</FlipUp>
 
 					<div className="my-10">

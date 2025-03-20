@@ -4,8 +4,8 @@ import Script from "next/script";
 import GoogleAnalytics from "@/lib/GoogleAnalytics";
 
 export const metadata: Metadata = {
-  title: "프론트엔드 개발자 오정환",
-  description: "프론트엔드 개발자 오정환 포트폴리오 입니다.",
+  title: "프론트엔드 & 모바일 개발자 오정환",
+  description: "프론트엔드 & 모바일 개발자 오정환 포트폴리오 입니다.",
   icons: {
     icon: "imgs/fe.ico"
   }

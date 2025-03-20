@@ -24,24 +24,24 @@ export const PROJECT_TEAM_LIST = [
 	},
 	{
 		id: 4,
-		title: 'U⁺커넥트',
-		badges: ['App', 'Web', 'React', 'ReactNative'],
-		images: '/imgs/projects/connect/connect-overview1.png',
-		description:
-			'스마트 차량 관리 플랫폼으로, 법인차량, 화물차, 버스 등 다양한 차량의 효율적인 운행 관리 서비스입니다',
-	},
-	{
-		id: 5,
 		title: '세종 스마트시티 실내주차장 내비게이션',
 		badges: ['Android', 'App', 'Kotlin'],
 		images: '/imgs/projects/sejongNavigation/sejong-navi-overview.png',
 		description: '실시간 차량 주차 유도와 경로 안내를 위한 비전 AI 기반 실내 내비게이션 서비스입니다',
 	},
 	{
-		id: 6,
+		id: 5,
 		title: 'KT AI 비즈카(샌드위키)',
 		badges: ['App', 'React', 'ReactNative'],
 		images: '/imgs/projects/sendWithKey/sendWithKey1.png',
 		description: 'AI 기반 추천과 스마트한 예약 관리로 업무용 차량 이용을 효율적으로 돕는 서비스입니다',
+	},
+	{
+		id: 6,
+		title: 'U⁺커넥트',
+		badges: ['App', 'Web', 'React', 'ReactNative'],
+		images: '/imgs/projects/connect/connect-overview1.png',
+		description:
+			'스마트 차량 관리 플랫폼으로, 법인차량, 화물차, 버스 등 다양한 차량의 효율적인 운행 관리 서비스입니다',
 	},
 ];

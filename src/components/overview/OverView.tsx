@@ -76,7 +76,7 @@ const OverView = () => {
 						className="lg:text-[64px] md:text-[52px] text-[30px] text-pureWhite"
 						height="lg:h-[76px] md:h-[63px] h-[46px]"
 					>
-						프론트엔드 & 모바일 개발자 <HighlightText>오정환</HighlightText>
+						프론트엔드 개발자 <HighlightText>오정환</HighlightText>
 					</FlipUp>
 
 					<div className="my-10">

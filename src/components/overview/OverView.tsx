@@ -4,6 +4,7 @@ import React from 'react';
 import HighlightText from '../common/HighlightText';
 import LengthUp from '../animation/LengthUp';
 import { FaGithub } from 'react-icons/fa';
+import { SiVelog } from "react-icons/si";
 // import { RiNotionFill } from 'react-icons/ri';
 import FlipUp from '../animation/FlipUp';
 import { SlideUpComponent } from '../animation/SlideUp';
@@ -15,8 +16,12 @@ const OverView = () => {
 			icon: <FaGithub />,
 			link: 'https://github.com/mkoh00',
 		},
+		{   id: 2, 
+			icon: <SiVelog  />, 
+			link: 'https://jaohoo.tistory.com/' 
+		}
 		// {
-		// 	id: 2,
+		// 	id: 3,
 		// 	icon: <RiNotionFill />,
 		// 	link: 'https://www.notion.so',
 		// },
@@ -50,7 +55,7 @@ const OverView = () => {
 						<LengthUp />
 					</div>
 					<SlideUpComponent delay={0.6}>
-						<h1 className="text-pureWhite font-bold lg:text-lg md:text-base text-sm">2025-01-16</h1>
+						<h1 className="text-pureWhite font-bold lg:text-lg md:text-base text-sm">2025-04-15</h1>
 					</SlideUpComponent>
 				</div>
 				<div className="w-full flex flex-col ">

@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAnalytics } from 'firebase/analytics';
+import { getAuth, signInAnonymously } from 'firebase/auth';
 
 // Firebase 환경 변수 설정
 const firebaseConfig = {
@@ -18,8 +19,17 @@ const app = initializeApp(firebaseConfig);
 
 // Firestore 연결
 export const db = getFirestore(app);
+export const auth = getAuth(app);
 
-// Firebase Analytics (브라우저 환경에서만 실행)
+// 브라우저에서만 익명 로그인 시도
 if (typeof window !== 'undefined') {
+	signInAnonymously(auth)
+		// .then((userCredential) => {
+		// 	console.log('익명 로그인 성공! UID:', userCredential.user.uid);
+		// })
+		.catch((error) => {
+			console.error('익명 로그인 실패:', error);
+		});
+
 	getAnalytics(app);
 }

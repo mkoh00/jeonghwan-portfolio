@@ -33,7 +33,7 @@ export const PROJECT_TEAM_LIST = [
 		id: 5,
 		title: 'KT AI 비즈카(샌드위키)',
 		badges: ['App', 'React', 'ReactNative'],
-		images: '/imgs/projects/sendWithKey/sendWithKey1.png',
+		images: '/imgs/projects/sendWithKey/sendWithKey-overview.png',
 		description: 'AI 기반 추천과 스마트한 예약 관리로 업무용 차량 이용을 효율적으로 돕는 서비스입니다',
 	},
 	{

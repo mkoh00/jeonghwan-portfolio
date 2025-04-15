@@ -453,6 +453,7 @@ export const projectDetailData = [
 		workTime: '2023.03.27 - 2023.11.09',
 		organize: '크로스 플랫폼 앱 개발 (Android, iOS)',
 		imgs: [
+			'/imgs/projects/sendWithKey/sendWithKey-overview.png',
 			'/imgs/projects/sendWithKey/sendWithKey1.png',
 			'/imgs/projects/sendWithKey/sendWithKey2.png',
 			'/imgs/projects/sendWithKey/sendWithKey3.png',

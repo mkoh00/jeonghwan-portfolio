@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -79,7 +80,14 @@ const Contact = () => {
 
 				<SlideUpScroll delay={0.25}>
 					<h3 className="text-white font-light my-5 md:text-base text-sm">
-						방명록을 통해 질문사항 또는 피드백을 남겨주세요! <br /> 오늘도 행복한 하루 되세요 😊
+						방명록을 통해 질문사항 또는 피드백을 남겨주세요! <br />
+						오늘도 행복한 하루 되세요
+						<img
+							src="https://imgur.com/K9O1659.gif"
+							width="30"
+							className="inline-block align-middle ml-1"
+							alt="smile"
+						/>
 					</h3>
 				</SlideUpScroll>
 

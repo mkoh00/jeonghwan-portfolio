@@ -5,19 +5,23 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>정환의 포트폴리오 | App & Web Developer</title>
+				<title>오정환 | 프론트엔드 포트폴리오 & FE 개발자</title>
 				<meta
 					name="description"
-					content="정환의 포트폴리오 웹사이트입니다. React, ReactNative, Java, kotlin 기반 프로젝트를 확인하세요."
+					content="오정환의 프론트엔드 포트폴리오입니다. React, React Native 기반 프로젝트와 웹/모바일 앱 개발 이력을 확인하세요."
 				/>
 				<meta
 					name="keywords"
-					content="포트폴리오, React, ReactNative, Java, kotlin, 웹 개발, 프론트엔드 개발자, FE 포트폴리오, 프론트엔드 포트폴리오, 모바일 개발자"
+					content="오정환, FE 포트폴리오, 프론트엔드 포트폴리오, 웹 개발자, 모바일 개발자, React, React Native, Java, Kotlin, 프론트엔드 개발자"
 				/>
 				<meta name="robots" content="index, follow" />
-				<meta property="og:title" content="정환의 포트폴리오" />
-				<meta property="og:description" content="React 기반 포트폴리오 프로젝트" />
+				<meta property="og:title" content="오정환 | 프론트엔드 포트폴리오" />
+				<meta
+					property="og:description"
+					content="React 기반 웹/앱 프로젝트를 확인할 수 있는 FE 포트폴리오입니다."
+				/>
 				<meta property="og:url" content="https://jeonghwan-portfolio.vercel.app" />
+				<meta property="og:type" content="website" />
 			</Head>
 			<Component {...pageProps} />
 		</>

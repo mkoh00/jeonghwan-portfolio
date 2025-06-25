@@ -15,18 +15,19 @@ export const frameworkStackData = [
 ];
 export const databaseStackData = [
 	{ id: 12, title: 'MySQL', description: '', svgURL: '/imgs/skill/MySQL.svg' },
-	{ id: 13, title: 'MongoDB', description: '', svgURL: '/imgs/skill/MongoDB.svg' },
+	{ id: 13, title: 'postgreSQL', description: '', svgURL: '/imgs/skill/PostgreSQL.svg' },
+	{ id: 14, title: 'MongoDB', description: '', svgURL: '/imgs/skill/MongoDB.svg' },
 ];
 export const developmentToolStackData = [
-	{ id: 14, title: 'VS Code', description: '', svgURL: '/imgs/skill/VSCode.svg' },
-	{ id: 15, title: 'Android Studio', description: '', svgURL: '/imgs/skill/AndroidStudio.svg' },
-	{ id: 16, title: 'Cursor', description: '', svgURL: '/imgs/skill/Cursor.svg' },
-	{ id: 17, title: 'Firebase', description: '', svgURL: '/imgs/skill/Firebase.svg' },
-	{ id: 18, title: 'Vercel', description: '', svgURL: '/imgs/skill/Vercel.svg' },
+	{ id: 15, title: 'VS Code', description: '', svgURL: '/imgs/skill/VSCode.svg' },
+	{ id: 16, title: 'Android Studio', description: '', svgURL: '/imgs/skill/AndroidStudio.svg' },
+	{ id: 17, title: 'Cursor', description: '', svgURL: '/imgs/skill/Cursor.svg' },
+	{ id: 18, title: 'Firebase', description: '', svgURL: '/imgs/skill/Firebase.svg' },
+	{ id: 19, title: 'Vercel', description: '', svgURL: '/imgs/skill/Vercel.svg' },
 ];
 export const collaborationToolStackData = [
-	{ id: 19, title: 'Git', description: '', svgURL: '/imgs/skill/Git.svg' },
-	{ id: 20, title: 'GitHub', description: '', svgURL: '/imgs/skill/GitHub.svg' },
+	{ id: 20, title: 'Git', description: '', svgURL: '/imgs/skill/Git.svg' },
+	{ id: 21, title: 'GitHub', description: '', svgURL: '/imgs/skill/GitHub.svg' },
 	{ id: 22, title: 'GitLab', description: '', svgURL: '/imgs/skill/GitLab.svg' },
 	{ id: 23, title: 'Figma', description: '', svgURL: '/imgs/skill/Figma.svg' },
 	{ id: 24, title: 'Jira', description: '', svgURL: '/imgs/skill/Jira.svg' },

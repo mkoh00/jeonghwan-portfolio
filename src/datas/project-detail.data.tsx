@@ -210,6 +210,7 @@ export const projectDetailData = [
 			'/imgs/projects/redcapMobilitySystem/rms-dispatch1.png',
 			'/imgs/projects/redcapMobilitySystem/rms-dispatch2.png',
 			'/imgs/projects/redcapMobilitySystem/rms-control1.png',
+			'/imgs/projects/redcapMobilitySystem/rms-control2.png',
 			'/imgs/projects/redcapMobilitySystem/rms-control3.png',
 			'/imgs/projects/redcapMobilitySystem/rms-app1.png',
 			'/imgs/projects/redcapMobilitySystem/rms-app2.png',
@@ -722,6 +723,143 @@ export const projectDetailData = [
 						style={{ height: '500px' }}
 						src="https://www.youtube.com/embed/L98SCSqKC_A"
 						title="U⁺Connect Guide Page"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+					></iframe>
+				),
+			},
+		],
+	},
+	{
+		id: 7,
+		primaryColor: '#A6001B',
+		URLS: {
+			githubURL: 'null',
+			blogURL: 'null',
+			serviceURL: 'https://cs-monitor.redcapmobility.com/login',
+			serviceBoolean: true,
+		},
+		title: '레드캡 모빌리티 통합 관제 시스템',
+		subTitle: '법인 차량 통합 관제 서비스 (고도화)',
+		workTime: '2025.01.13 - 2025.05.25',
+		organize: '웹 프론트엔드 개발',
+		imgs: [
+			'/imgs/projects/redcapMobilityControl/rms-control1.png',
+			'/imgs/projects/redcapMobilityControl/rms-control2.png',
+			'/imgs/projects/redcapMobilityControl/rms-control3.png',
+			'/imgs/projects/redcapMobilityControl/rms-control4.png',
+			'/imgs/projects/redcapMobilityControl/rms-control5.png',
+			'/imgs/projects/redcapMobilityControl/rms-control6.png',
+			'/imgs/projects/redcapMobilityControl/rms-control7.png',
+		],
+		description: {
+			bottomPart: (
+				<p>
+					<span className="font-bold">레드캡 모빌리티 시스템 (RMS)</span>는 기업의 법인 차량 관리를 효율적으로
+					지원하는 통합 솔루션입니다. <br />
+					이 시스템은 배차, 운행 일지 작성, 차량 위치 실시간 모니터링 등 다양한 기능을 제공하여 차량 관리
+					업무를 간소화하고 운영 효율을 높입니다. <br />
+					또한, PC와 모바일을 모두 지원하여 언제 어디서나 편리하게 차량 예약 및 반납이 가능합니다. <br />
+					레드캡RMS를 통해 기업은 차량 관리의 번거로움을 해소하고, 효율적인 운행 관리를 실현할 수 있습니다.
+				</p>
+			),
+		},
+		lists: [
+			{
+				title: '관제 화면 프론트엔드 고도화',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						<ul>
+							<li className="font-bold">대시보드 및 현황 모니터링 기능 개선</li>
+							<li className="px-3 text-lightgrey">
+								- 기존 팝업 형태였던 전기차 현황, 차량 상태 현황, 이상 차량 현황, 실시간 차량 위치
+								현황을 별도 페이지로 전환 기능 추가
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 사용자 편의성과 데이터 접근성을 고려해 리스트-상세 구조 적용, 조건 검색 기능 고도화
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold">차량 관리 기능 강화</li>
+							<li className="px-3 text-lightgrey">
+								- 차량 상세 정보 페이지 신규 구축: 단말기 정보, 운전자 변경, 차량 메모, 등록증 등 상세
+								기능 분리
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 단말기 관리 페이지 신설, 차량 단말 상태 모니터링 기능 추가
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold">운행 이력 및 경로 조회 기능 신규 개발</li>
+							<li className="px-3 text-lightgrey">
+								- 운행 내역 조회, 운행 경로 지도, 차량별 운행기록부, 운행기록부 다운로드 기능 추가
+							</li>
+							<li className="px-3 text-lightgrey">- 지도 연동 및 실시간 위치 기반 운행 정보 시각화</li>
+							<li className="px-3 text-lightgrey">
+								- 운전자 중심 운행 정보 검색 및 국세청 양식 대응을 위한 PDF/Excel 출력
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold">통계/분석 기능 신규 개발</li>
+							<li className="px-3 text-lightgrey">
+								- 운행 통계 / 비용 통계 모듈을 신규 구축하고, 일자별 / 조직별 / 운전자별 탭으로 데이터
+								분류
+							</li>
+							<li className="px-3 text-lightgrey">- API 파라미터 구조 정비 및 검색 필터 조건 처리</li>
+							<li className="px-3 text-lightgrey">
+								- 향후 추가 고도화를 고려한 모듈화된 통계 컴포넌트 설계
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold">비용 관리 기능 신규 구축</li>
+							<li className="px-3 text-lightgrey">
+								- 차량 유지비 조회, 비용 승인 관리, 비용 신청/승인 팝업 등을 신규 개발
+							</li>
+							<li className="px-3 text-lightgrey">- 승인/반려 처리 로직 구현 및 연동 API 구축</li>
+						</ul>
+						<ul>
+							<li className="font-bold">결제 정보 모니터링 시스템 구축</li>
+							<li className="px-3 text-lightgrey">- 주유 / 하이패스 모니터링 기능 추가</li>
+						</ul>
+						<ul>
+							<li className="font-bold">구성원 및 권한 관리 기능 고도화</li>
+							<li className="px-3 text-lightgrey">
+								- 조직 관리, 운전자 관리, 어드민 계정 관리, 승인 이력 관리 전반 리뉴얼
+							</li>
+							<li className="px-3 text-lightgrey">
+								- 조직별 데이터 분류, 권한 기반 탭/기능 활성화 로직 반영
+							</li>
+							<li className="px-3 text-lightgrey">- 메뉴명 변경 및 역할 기반 기능 분할 적용</li>
+						</ul>
+						<ul>
+							<li className="font-bold">운영 및 로그 이력 관리 기능 강화</li>
+							<li className="px-3 text-lightgrey">
+								- 메뉴 권한 관리, 탈퇴/휴면 사용자 이력, 로그인/위치 로그 이력 등의 기능 고도화
+							</li>
+							<li className="px-3 text-lightgrey">- 권한, 조직 필터 등 운영자 중심의 조건 검색 추가</li>
+							<li className="px-3 text-lightgrey">
+								- 메뉴 관리 시스템 신규 구축 (메뉴 추가 및 구성 관리)
+							</li>
+						</ul>
+					</ul>
+				),
+			},
+			{
+				title: '기술 키워드',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						React, TypeScript, Node.js, GraphQL, Apollo Client, Amazon S3, Axios
+					</ul>
+				),
+			},
+			{
+				title: '참고 자료',
+				items: (
+					<iframe
+						className="w-full h-[500px]"
+						style={{ height: '500px' }}
+						src="https://biz.redcap.co.kr/rent/sub/rentacar/system.php"
+						title="RMS Guide Page"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowFullScreen
 					></iframe>

@@ -72,10 +72,10 @@ const AboutProfile = () => {
 							<FaUser />
 							1996.02.23
 						</li>
-						<li className="flex gap-3 items-center">
+						{/* <li className="flex gap-3 items-center">
 							<MdCall />
-							010-6889-5375
-						</li>
+							010-1234-5678
+						</li> */}
 						<li className="flex gap-3 items-center">
 							<MdEmail />
 							mkoh0011@gmail.com

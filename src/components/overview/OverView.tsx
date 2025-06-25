@@ -55,7 +55,7 @@ const OverView = () => {
 						<LengthUp />
 					</div>
 					<SlideUpComponent delay={0.6}>
-						<h1 className="text-pureWhite font-bold lg:text-lg md:text-base text-sm">2025-04-15</h1>
+						<h1 className="text-pureWhite font-bold lg:text-lg md:text-base text-sm">2025-06-25</h1>
 					</SlideUpComponent>
 				</div>
 				<div className="w-full flex flex-col ">

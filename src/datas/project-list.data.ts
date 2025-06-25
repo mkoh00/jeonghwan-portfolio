@@ -44,4 +44,11 @@ export const PROJECT_TEAM_LIST = [
 		description:
 			'스마트 차량 관리 플랫폼으로, 법인차량, 화물차, 버스 등 다양한 차량의 효율적인 운행 관리 서비스입니다',
 	},
+	{
+		id: 7,
+		title: '레드캡 모빌리티 통합 관제 시스템',
+		badges: ['Web', 'React'],
+		images: '/imgs/projects/redcapMobilityControl/rms-control1.png',
+		description: '기업의 법인 차량 관리를 효율적으로 지원하는 통합 솔루션입니다',
+	},
 ];

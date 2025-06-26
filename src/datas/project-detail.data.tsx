@@ -739,10 +739,10 @@ export const projectDetailData = [
 			serviceURL: 'https://cs-monitor.redcapmobility.com/login',
 			serviceBoolean: true,
 		},
-		title: '레드캡 모빌리티 통합 관제 시스템',
+		title: '레드캡 모빌리티 컨트롤 시스템 (RMCS)',
 		subTitle: '법인 차량 통합 관제 서비스 (고도화)',
 		workTime: '2025.01.13 - 2025.05.25',
-		organize: '웹 프론트엔드 개발',
+		organize: '웹 프론트엔드 개발 및 유지보수',
 		imgs: [
 			'/imgs/projects/redcapMobilityControl/rms-control1.png',
 			'/imgs/projects/redcapMobilityControl/rms-control2.png',
@@ -755,12 +755,15 @@ export const projectDetailData = [
 		description: {
 			bottomPart: (
 				<p>
-					<span className="font-bold">레드캡 모빌리티 시스템 (RMS)</span>는 기업의 법인 차량 관리를 효율적으로
-					지원하는 통합 솔루션입니다. <br />
-					이 시스템은 배차, 운행 일지 작성, 차량 위치 실시간 모니터링 등 다양한 기능을 제공하여 차량 관리
-					업무를 간소화하고 운영 효율을 높입니다. <br />
-					또한, PC와 모바일을 모두 지원하여 언제 어디서나 편리하게 차량 예약 및 반납이 가능합니다. <br />
-					레드캡RMS를 통해 기업은 차량 관리의 번거로움을 해소하고, 효율적인 운행 관리를 실현할 수 있습니다.
+					<span className="font-bold">레드캡 모빌리티 컨트롤 시스템(RMCS)</span>는 기업의 법인 차량을
+					실시간으로 관제할 수 있는 통합 솔루션입니다.
+					<br />
+					차량의 현재 위치와 운행 경로를 한눈에 파악할 수 있으며, 주차 현황, 차량 상태 등 주요 정보를
+					실시간으로 제공합니다.
+					<br />
+					또한 직관적인 UI로 빠르고 편리하게 현황을 모니터링할 수 있습니다.
+					<br />
+					레드캡RMS 관제 기능을 통해 기업은 차량 운영의 투명성과 효율성을 극대화할 수 있습니다.
 				</p>
 			),
 		},

@@ -46,9 +46,9 @@ export const PROJECT_TEAM_LIST = [
 	},
 	{
 		id: 7,
-		title: '레드캡 모빌리티 통합 관제 시스템',
+		title: '레드캡 모빌리티 컨트롤 시스템 (RMCS)',
 		badges: ['Web', 'React'],
 		images: '/imgs/projects/redcapMobilityControl/rms-control1.png',
-		description: '기업의 법인 차량 관리를 효율적으로 지원하는 통합 솔루션입니다',
+		description: '기업 법인 차량을 스마트하게 관리하는 통합 관제 솔루션입니다',
 	},
 ];

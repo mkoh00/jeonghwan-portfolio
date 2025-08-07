@@ -870,4 +870,251 @@ export const projectDetailData = [
 			},
 		],
 	},
+	{
+		id: 8,
+		primaryColor: '#4A6FA5',
+		URLS: {
+			githubURL: 'null',
+			blogURL: 'null',
+			serviceURL: 'http://spms.geosoft.co.kr/',
+			serviceBoolean: true,
+		},
+		title: '스마트파킹 플랫폼',
+		subTitle: 'AI와 IoT 기반으로 차량·주차장·공간을 실시간으로 관리하는 스마트 관제 솔루션',
+		workTime: '2025.05.27 - 진행중',
+		organize: '웹 프론트엔드, 백엔드 개발',
+		imgs: [
+			'/imgs/projects/smartParking/smart-parking-overview.png',
+			'/imgs/projects/smartParking/smart-parking2.png',
+			'/imgs/projects/smartParking/smart-parking3.png',
+			'/imgs/projects/smartParking/smart-parking4.png',
+			'/imgs/projects/smartParking/smart-parking5.png',
+			'/imgs/projects/smartParking/smart-parking6.png',
+			'/imgs/projects/smartParking/smart-parking7.png',
+			'/imgs/projects/smartParking/smart-parking8.png',
+			'/imgs/projects/smartParking/smart-parking9.png',
+			'/imgs/projects/smartParking/smart-parking10.png',
+			'/imgs/projects/smartParking/smart-parking11.png',
+			'/imgs/projects/smartParking/smart-parking12.png',
+			'/imgs/projects/smartParking/smart-parking13.png',
+			'/imgs/projects/smartParking/smart-parking14.png',
+			'/imgs/projects/smartParking/smart-parking15.png',
+			'/imgs/projects/smartParking/smart-parking16.png',
+			'/imgs/projects/smartParking/smart-parking17.png',
+			'/imgs/projects/smartParking/smart-parking18.png',
+		],
+		description: {
+			bottomPart: (
+				<p>
+					<span className="font-bold">스마트파킹 플랫폼</span>은 주차장과 차량을 실시간으로 통합 관리할 수
+					있는 솔루션입니다.
+					<br />
+					AI CCTV와 GeoJSON 기반 공간 데이터를 활용해 차량, 사람, 사물의 위치와 이동 현황, 주차 공간 상태 등
+					주요 정보를 한눈에 확인할 수 있으며,
+					<br />
+					직관적인 UI를 통해 실시간 관제와 관리자 알림 기능까지 손쉽게 사용할 수 있습니다.
+					<br />
+					스마트 관제 시스템을 통해 기업은 주차 및 차량 운영의 효율성과 안전성을 동시에 높일 수 있습니다.
+				</p>
+			),
+		},
+		lists: [
+			{
+				title: '프로젝트 핵심 기능',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						<ul>
+							<li className="font-bold text-xl">1. 실시간 차량/객체 관제 시스템</li>
+							<li className="px-3 font-bold text-lg">RabbitMQ 기반 워커/컨슈머 구조</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- 차량 위치, 사고, 정비 등 다양한 이벤트를 실시간으로 처리</li>
+									<li className="px-3">- 컨슈머 로직을 모듈화하고, 여러 워커로 역할 분리</li>
+									<li className="px-3">
+										- 차량 트래킹 데이터 수집 및 frame_id 기준 최신 정보만 반영하는 중복 데이터 방지
+										로직
+									</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">카메라 인식 데이터 수집 및 DB 반영</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">
+										- CCTV 등에서 객체 인식 → RabbitMQ로 실시간 데이터 적재 → BE가 소비하여 DB에
+										저장
+									</li>
+									<li className="px-3">
+										- 카메라 별로 frame_id 기반 최신 데이터만 유지, 이전 데이터 삭제
+									</li>
+									<li className="px-3">
+										- 차량 외 객체(사람, 자전거, 오토바이, 콘 등)도 className 필터링하여 선택적 관제
+										가능
+									</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">실시간 지도 UI</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- FE에서 네이버 지도로 지도 렌더링</li>
+									<li className="px-3">
+										- 차량, 사람 등 객체의 위치를 마커로 시각화하며, 이동 애니메이션/부드러운 위치
+										갱신 지원
+									</li>
+									<li className="px-3">- 객체 유형별 필터링, 타입별 마커 아이콘 동적 적용</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold text-xl">2. 주차장/공간 관리 및 GeoJSON 데이터 처리</li>
+							<li className="px-3 font-bold text-lg">주차공간 POLYGON 및 중심 좌표 연동</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- CCTV 인식 결과에서 주차면 POLYGON 좌표 자동 추출/DB 저장</li>
+									<li className="px-3">- 중심좌표를 위경도로 변환하여, 지도상 정확한 위치 산출</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">주차공간 상태 관리</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">
+										- 좌표 데이터 처리 시 POINT 타입으로 저장하여, 공간 쿼리 최적화
+									</li>
+									<li className="px-3">- 주차공간별 만차/공차 상태 실시간 체크/색상 표기 기능</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold text-xl">3. 주차장/회사/관리자 마스터 관리</li>
+							<li className="px-3 font-bold text-lg">주차장 관리</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- 등록/수정/삭제 API 구현, 주차장명 중복 체크 및 예외 처리</li>
+									<li className="px-3">
+										- 관리 화면에서 목록, 페이지네이션, 모달 등록/수정, 지도에서 위치 직접 선택 기능
+										구현
+									</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">주차장 관리자(Manager) 관리</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">
+										- 주차장별/회사별 관리자 조회, 등록, 수정, 삭제, 전화번호 등 정보 관리.
+									</li>
+									<li className="px-3">
+										- 관리자별 화재 알림 주기 설정(분 단위) 가능, 관리 화면에서 직접 조회/수정/등록
+										지원.
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold text-xl">4. 카메라(CCTV) 연동 및 인증</li>
+							<li className="px-3 font-bold text-lg">카메라 설정/조회/등록/수정/삭제 API</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- 각 주차장/층/타입/거리단위별로 카메라 관리 가능</li>
+									<li className="px-3">
+										- 카메라 위치는 선택 주차장 중심 위치로 자동 입력 또는 도면에서 직접 선택
+									</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">카메라 인증 방식</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">
+										- RFC 2617 Digest 인증 구현(HA1, HA2, Response 해시 처리, Realm 등)
+									</li>
+									<li className="px-3">
+										- Digest 인증을 이용한 주차 상태 실시간 조회 및 파싱 → DB 저장
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold text-xl">5. 연기/화재 탐지 및 경보 시스템</li>
+							<li className="px-3 font-bold text-lg">화재/연기 감지구역 관리</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- POLYGON 좌표로 구역 지정, DB에 공간 정보 저장</li>
+									<li className="px-3">- 감지구역 상태 및 리스트 조회 API</li>
+									<li className="px-3">
+										- 실시간 주차장 현황 지도에서 화재/연기 발생 구역에 알림 아이콘 표기(즉시
+										시각화)
+									</li>
+									<li className="px-3">
+										- 연기/화재 탐지 이벤트 RabbitMQ로 수신 → 알림 및 관제 시스템 연동
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold text-xl">6. 회원/인증/보안</li>
+							<li className="px-3 font-bold text-lg">회원가입/로그인</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- 신규 회원 등록 및 인증 후 토큰 발급</li>
+									<li className="px-3">
+										- 토큰 기반 API 인증, 필요 없는 API(회사 목록 등)는 인증 예외처리
+									</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">에러 코드/예외처리</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">- API별 에러 코드 및 응답구조 체계화</li>
+									<li className="px-3">- 중복 주차장명 등 주요 예외에 FE 팝업/알림 연동</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li className="font-bold text-xl">7. 공통 인프라/배포/운영</li>
+							<li className="px-3 font-bold text-lg">CI/CD 및 PM2 연동</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">
+										- deploy 시 기존 pm2 서비스 종료 후 재시작, worker 실행 명령어 별도 관리
+									</li>
+									<li className="px-3">- 배포 자동화 및 브랜치별 배포 성공/실패 알림 (slack)</li>
+								</ul>
+							</li>
+							<li className="px-3 font-bold text-lg">API 응답구조 표준화</li>
+							<li className="px-3">
+								<ul>
+									<li className="px-3">
+										- 객체/배열/에러 반환 형태 일관성 유지, 공통 response 함수로 관리
+									</li>
+									<li className="px-3">
+										- 환경별 DB 주소, 엔드포인트, 토큰 인증 등 Config 분리 관리
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</ul>
+				),
+			},
+			{
+				title: '기술 키워드',
+				items: (
+					<ul className="w-auto flex flex-col gap-2">
+						React, TypeScript, Node.js, GraphQL, RabbitMQ, Naver Map API, GeoJSON, WebSocket, GraphQL
+						Subscription, Digest Auth (RFC 2617), JWT, PM2, PostgreSQL
+					</ul>
+				),
+			},
+			{
+				title: '참고 자료',
+				items: (
+					<iframe
+						className="w-full h-[500px]"
+						style={{ height: '500px' }}
+						src="http://www.geosoft.co.kr/NEW/business/ai.php"
+						title="RMS Guide Page"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+					></iframe>
+				),
+			},
+		],
+	},
 ];

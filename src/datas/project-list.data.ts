@@ -51,4 +51,11 @@ export const PROJECT_TEAM_LIST = [
 		images: '/imgs/projects/redcapMobilityControl/rms-control1.png',
 		description: '기업 법인 차량을 스마트하게 관리하는 통합 관제 솔루션입니다',
 	},
+	{
+		id: 8,
+		title: '스마트파킹 플랫폼',
+		badges: ['Web', 'React', 'Node.js'],
+		images: '/imgs/projects/smartParking/smart-parking3.png',
+		description: 'AI CCTV와 실시간 관제로 주차장, 차량, 공간을 통합 관리하는 스마트파킹 솔루션입니다',
+	},
 ];

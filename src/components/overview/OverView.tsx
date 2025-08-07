@@ -4,7 +4,7 @@ import React from 'react';
 import HighlightText from '../common/HighlightText';
 import LengthUp from '../animation/LengthUp';
 import { FaGithub } from 'react-icons/fa';
-import { SiVelog } from "react-icons/si";
+import { SiVelog } from 'react-icons/si';
 // import { RiNotionFill } from 'react-icons/ri';
 import FlipUp from '../animation/FlipUp';
 import { SlideUpComponent } from '../animation/SlideUp';
@@ -16,10 +16,7 @@ const OverView = () => {
 			icon: <FaGithub />,
 			link: 'https://github.com/mkoh00',
 		},
-		{   id: 2, 
-			icon: <SiVelog  />, 
-			link: 'https://jaohoo.tistory.com/' 
-		}
+		{ id: 2, icon: <SiVelog />, link: 'https://jaohoo.tistory.com/' },
 		// {
 		// 	id: 3,
 		// 	icon: <RiNotionFill />,
@@ -55,7 +52,7 @@ const OverView = () => {
 						<LengthUp />
 					</div>
 					<SlideUpComponent delay={0.6}>
-						<h1 className="text-pureWhite font-bold lg:text-lg md:text-base text-sm">2025-06-25</h1>
+						<h1 className="text-pureWhite font-bold lg:text-lg md:text-base text-sm">2025-08-07</h1>
 					</SlideUpComponent>
 				</div>
 				<div className="w-full flex flex-col ">
@@ -65,7 +62,7 @@ const OverView = () => {
 						className="lg:text-[96px] md:text-[64px] text-[52px] text-grey font-bold"
 						height="lg:h-[106px] md:h-[70px] h-[60px]"
 					>
-						APP
+						BACK-END
 					</FlipUp>
 					<FlipUp
 						initialY="100%"
@@ -73,7 +70,7 @@ const OverView = () => {
 						className="lg:text-[96px] md:text-[64px] text-[52px] text-grey font-bold"
 						height="lg:h-[106px] md:h-[70px] h-[60px]"
 					>
-						FRONT-END
+						APP · FRONT
 					</FlipUp>
 					<FlipUp
 						initialY="100%"
@@ -81,7 +78,7 @@ const OverView = () => {
 						className="lg:text-[64px] md:text-[52px] text-[30px] text-pureWhite"
 						height="lg:h-[76px] md:h-[63px] h-[46px]"
 					>
-						프론트엔드 개발자 <HighlightText>오정환</HighlightText>
+						풀스택 개발자 <HighlightText>오정환</HighlightText>
 					</FlipUp>
 
 					<div className="my-10">

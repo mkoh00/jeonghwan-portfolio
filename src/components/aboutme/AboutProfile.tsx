@@ -44,7 +44,7 @@ const AboutProfile = () => {
           
           "
 						>
-							<HighlightText>프론트엔드 & 모바일 개발자</HighlightText>
+							<HighlightText>모바일 · 프론트엔드 & 백엔드</HighlightText>
 						</h1>
 					</SlideUpScroll>
 					<SlideUpScroll>
@@ -56,7 +56,7 @@ const AboutProfile = () => {
           
           "
 						>
-							<HighlightText>오정환</HighlightText>입니다
+							<HighlightText>개발자 오정환</HighlightText>입니다
 						</h1>
 					</SlideUpScroll>
 				</div>

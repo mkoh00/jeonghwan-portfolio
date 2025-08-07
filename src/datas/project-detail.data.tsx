@@ -1102,19 +1102,19 @@ export const projectDetailData = [
 					</ul>
 				),
 			},
-			{
-				title: '참고 자료',
-				items: (
-					<iframe
-						className="w-full h-[500px]"
-						style={{ height: '500px' }}
-						src="http://www.geosoft.co.kr/NEW/business/ai.php"
-						title="RMS Guide Page"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowFullScreen
-					></iframe>
-				),
-			},
+			// {
+			// 	title: '참고 자료',
+			// 	items: (
+			// 		<iframe
+			// 			className="w-full h-[500px]"
+			// 			style={{ height: '500px' }}
+			// 			src="http://www.geosoft.co.kr/NEW/business/ai.php"
+			// 			title="RMS Guide Page"
+			// 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			// 			allowFullScreen
+			// 		></iframe>
+			// 	),
+			// },
 		],
 	},
 ];

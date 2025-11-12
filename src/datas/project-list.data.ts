@@ -55,7 +55,7 @@ export const PROJECT_TEAM_LIST = [
 		id: 8,
 		title: '스마트파킹 플랫폼',
 		badges: ['Web', 'React', 'Node.js'],
-		images: '/imgs/projects/smartParking/smart-parking3.png',
+		images: '/imgs/projects/smartParking/smart-parking6.png',
 		description: 'AI CCTV와 실시간 관제로 주차장, 차량, 공간을 통합 관리하는 스마트파킹 솔루션입니다',
 	},
 ];

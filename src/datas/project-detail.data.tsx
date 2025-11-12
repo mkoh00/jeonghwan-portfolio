@@ -876,7 +876,7 @@ export const projectDetailData = [
 		URLS: {
 			githubURL: 'null',
 			blogURL: 'null',
-			serviceURL: 'http://spms.geosoft.co.kr/',
+			serviceURL: 'http://218.153.121.3/',
 			serviceBoolean: true,
 		},
 		title: '스마트파킹 플랫폼',
@@ -902,6 +902,8 @@ export const projectDetailData = [
 			'/imgs/projects/smartParking/smart-parking16.png',
 			'/imgs/projects/smartParking/smart-parking17.png',
 			'/imgs/projects/smartParking/smart-parking18.png',
+			'/imgs/projects/smartParking/smart-parking19.png',
+			'/imgs/projects/smartParking/smart-parking20.png',
 		],
 		description: {
 			bottomPart: (
@@ -961,6 +963,10 @@ export const projectDetailData = [
 										갱신 지원
 									</li>
 									<li className="px-3">- 객체 유형별 필터링, 타입별 마커 아이콘 동적 적용</li>
+									<li className="px-3">
+										- 각 카메라에서 조회한 오브젝트 별 포인트 좌표를 지리 좌표계로 변환하는 알고리즘
+										적용 (실시간 관제 기능)
+									</li>
 								</ul>
 							</li>
 						</ul>
@@ -980,6 +986,9 @@ export const projectDetailData = [
 										- 좌표 데이터 처리 시 POINT 타입으로 저장하여, 공간 쿼리 최적화
 									</li>
 									<li className="px-3">- 주차공간별 만차/공차 상태 실시간 체크/색상 표기 기능</li>
+									<li className="px-3">
+										- 주차된 차량 선택 시 차량의 상세 정보 표기 기능 (주차 시간, 차량 번호 등)
+									</li>
 								</ul>
 							</li>
 						</ul>
@@ -1038,6 +1047,9 @@ export const projectDetailData = [
 								<ul>
 									<li className="px-3">- POLYGON 좌표로 구역 지정, DB에 공간 정보 저장</li>
 									<li className="px-3">- 감지구역 상태 및 리스트 조회 API</li>
+									<li className="px-3">
+										- 화재/연기 발생 시 붉은 배경으로 번쩍임 효과와 알림 팝업 출력(사용자 알림)
+									</li>
 									<li className="px-3">
 										- 실시간 주차장 현황 지도에서 화재/연기 발생 구역에 알림 아이콘 표기(즉시
 										시각화)

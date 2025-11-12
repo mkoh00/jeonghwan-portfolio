@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "오정환 개발자 포트폴리오",
   description: "풀스택 개발자 오정환 포트폴리오 입니다.",
   icons: {
-    icon: "imgs/fe.ico"
+    icon: "imgs/favicon_minimal_chevrons.ico"
   }
 };
 
